@@ -1,0 +1,4 @@
+http://www.google.com/;//input[@class='gLFyf'];"//img[@src=""/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png""]"
+https://www.google.com/;//input[@class='gLFyf'];"//img[@src=""/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png""]"
+https://www.example.com/;//a[@href];//h1[contains(text(), 'Example Domain')]
+https://www.example.com/this-page-does-not-exist;;
