@@ -7,12 +7,15 @@ pip install -r requirements.txt
 Config file usage:
 Write an url and xpath locator(s) with ; as a separator
 Possible formats:
+
 ```
 url;
 url;locator1
 url;locator1;locator2;
 ```
+
 Example:
+
 ```
 https://www.example.com/;//a[@href];//h1[contains(text(), 'Example Domain')]
 ```
