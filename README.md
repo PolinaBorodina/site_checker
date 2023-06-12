@@ -34,10 +34,10 @@ If a site doesn't have specified locators, the script checks a status code only
 Arguments to run:
 ```
 -h 	--help			help
--ar 	--allow_redirect	to allow redirects. No redirects by default
--d 	--delay			to set delay (in seconds). Default value - 60
--t 	--timeout		to set request timeout (in seconds). Default value - 5
--cfg	--config_file		to change a path to the config file. Default path is "config.txt" in the project's directory
--logs 	--logging_level		to change logging level: DEBUG, INFO, WARNING, ERROR. Default level - INFO
--lfsize	--log_file_size		to change maximum size of a log file (in bytes). Default value - 20971520. The last log file will be backed up when the size limit is reached.
+-ar 	--allow_redirect	allow redirects. No redirects by default
+-d 	--delay			set delay (in seconds). Default value - 60
+-t 	--timeout		set request timeout (in seconds). Default value - 5
+-cfg	--config_file		change a path to the config file. Default path is "config.txt" in the project's directory
+-logs 	--logging_level		change logging level: DEBUG, INFO, WARNING, ERROR. Default level - INFO
+-lfsize	--log_file_size		change maximum size of a log file (in bytes). Default value - 20971520. The last log file will be backed up when the size limit is reached.
 ```
