@@ -1,17 +1,19 @@
-This script requires requests_html module:
+### Prerequisites:
+
+This script requires requests_html module. You can install it in two ways:
 
 ```
 pip install requests_html
 ```
-or just use requirements.txt
+or
 ```
 pip install -r requirements.txt
 ```
 
 
-Config file usage:
+### Config file usage:
 
-Write an url and xpath locator(s) with ; as a separator
+Write an url and xpath locator(s) with ; as a separator.
 
 Possible formats:
 
@@ -38,7 +40,7 @@ You can also use config.txt file in the project's directory as an example.
 If a site doesn't have locators specified, the script only checks a status code.
 
 
-Arguments to run:
+### Arguments to run:
 ```
 -h 	--help			help
 -ar 	--allow_redirect	allow redirects. No redirects by default
