@@ -7,17 +7,21 @@ pip install -r requirements.txt
 Config file usage:
 Write an url and xpath locator(s) with ; as a separator
 Possible formats:
+```
 url;
 url;locator1
 url;locator1;locator2;
+```
 Example:
+```
 https://www.example.com/;//a[@href];//h1[contains(text(), 'Example Domain')]
+```
 
 In this case this script checks site https://www.example.com/ and looks for elements with xpaths '//a[@href]' and '//h1[contains(text(), 'Example Domain')]'
 
 You can also use config.txt file in the project's directory as an example.
 
-If a site doesn't have specified locators, the sript checks a status code only
+If a site doesn't have specified locators, the script checks a status code only
 
 
 Arguments to run:
